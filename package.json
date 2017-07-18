@@ -1,0 +1,29 @@
+{
+  "name": "animationDemo",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@exponent/vector-icons": "~2.0.3",
+    "exponent": "~14.0.0",
+    "react": "~15.4.0",
+    "react-native": "https://github.com/exponent/react-native/archive/sdk-14.0.0.tar.gz",
+    "react-native-animatable": "^1.1.0",
+    "react-native-image-header-scroll-view": "^0.4.0",
+    "react-native-vector-icons": "^4.0.0",
+    "react-navigation": "^1.0.0-beta.6"
+  },
+  "devDependencies": {
+    "babel-jest": "18.0.0",
+    "babel-preset-react-native": "1.9.1",
+    "jest": "18.1.0",
+    "react-test-renderer": "15.4.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "main": ""
+}
